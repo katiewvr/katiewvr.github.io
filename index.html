@@ -9,14 +9,15 @@
   <link href="https://fonts.googleapis.com/css2?family=DM-Serif-Display:ital,wght@0,400;0,600;1,400&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet" />
   <style>
     :root {
-      --teal:       #4a9b9b;
-      --teal-light: #6db8b8;
-      --teal-pale:  #e8f4f4;
-      --slate:      #dce8ec;
-      --text:       #2c3e40;
-      --muted:      #6b8387;
+--dark-amethyst: #2f1847ff;
+--prussian-blue: #011638ff;
+      --oxblood:    #990000ff;
+      --glaucous:   #7d8cc4ff;
+      --old-lace:   #fff4e4ff;
+      --slate:      #f5e8d5
+      --text:       #2f1847ff;
       --white:      #ffffff;
-      --border:     #b0d0d4;
+      --border:     #011638ff;
     }
 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -47,7 +48,7 @@
       align-items: center;
       justify-content: space-between;
       padding: 2rem 2.5rem 1.75rem;
-      border-bottom: 2px dotted var(--teal-light);
+      border-bottom: 2px solid var(--glaucous);
       gap: 1.5rem;
     }
 
@@ -64,7 +65,7 @@
       margin-top: 0.35rem;
       font-size: 1rem;
       font-weight: 300;
-      color: var(--muted);
+      color: var(--glaucous);
       letter-spacing: 0.04em;
     }
 
@@ -74,7 +75,7 @@
       border-radius: 50%;
       object-fit: cover;
       flex-shrink: 0;
-      border: 3px solid var(--teal-pale);
+      border: 3px solid var(--old-lace);
     }
 
 
@@ -88,7 +89,7 @@
       font-family: 'DM Serif Display', serif;
       font-size: 1.05rem;
       font-weight: 400;
-      color: var(--teal);
+      color: var(--oxblood);
       letter-spacing: 0.06em;
       text-transform: uppercase;
       margin-bottom: 1.25rem;
@@ -121,7 +122,7 @@
     }
 
     .contact-email a {
-      color: var(--teal);
+      color: var(--oxblood);
       text-decoration: none;
       font-weight: 600;
     }
@@ -137,12 +138,12 @@
     .social-icons a {
       display: flex;
       align-items: center;
-      color: var(--muted);
+      color: var(--glaucous);
       transition: color 0.2s;
       text-decoration: none;
     }
 
-    .social-icons a:hover { color: var(--teal); }
+    .social-icons a:hover { color: var(--oxblood); }
 
     .social-icons svg {
       width: 22px;
@@ -175,8 +176,8 @@
     <section class="about">
       <h2>About me</h2>
       <p>
-        I'm a Ph.D. candidate in the political science department at Tulane University.
-        My research explores the domestic determinants of donor countries' foreign aid budgets,
+        I&rsquo;m a Ph.D. candidate in the political science department at Tulane University.
+        My research explores the domestic determinants of donor countries&rsquo; foreign aid budgets,
         including the role of the welfare state, citizen-level cosmopolitanism, and the
         opinion-policy nexus.
       </p>
